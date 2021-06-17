@@ -1,10 +1,10 @@
 class userContract:
 
-    def __init__(self, nameAgenNo, cnpjNo, nameNode, ipNode) -> None:
-        self.nameAgenNo = nameAgenNo
-        self.cnpjNo = cnpjNo
-        self.nameNode = nameNode
-        self.ipNode = ipNode
+    def __init__(self, _nameAgenNo, _cnpjNo, _nameNode, _ipNode) -> None:
+        self.nameAgenNo = _nameAgenNo
+        self.cnpjNo = _cnpjNo
+        self.nameNode = _nameNode
+        self.ipNode = _ipNode
 
     def addNewNode():
         return 0
